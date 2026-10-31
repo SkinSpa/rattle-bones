@@ -268,39 +268,10 @@ h1 span {
     text-align: center
   }
 
-   .ctrl-btn {
-  flex: 0 0 auto;
-  display: grid;
-  place-items: center;
-  padding: 0 8px;
-  cursor: pointer;
-  user-select: none;
-  font: 9px/1.4 'Press Start 2P', monospace;
-  letter-spacing: .5px;
-  white-space: nowrap;
-  color: #ece3cc;
-  background: rgba(8, 8, 11, .86);
-  border: 2px solid #ece3cc;
-  transition: background .15s, color .15s
-}
-
-.ctrl-btn:hover {
-  background: #ece3cc;
-  color: #0b0b0e
-}
-
-.restart-btn {
-  text-decoration: none
-}
-
-.ctrl-btn .when-off {
-  display: none
-}
-
   .player {
     flex: none;
-    width: 50%;
-    height: 35px
+    width: 90%;
+    height: 60px
   }
 }
 
